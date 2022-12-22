@@ -1,0 +1,77 @@
+.seller-review .review-bottom .hr-review{
+    width: 60%;
+}
+
+.seller-review .review-bottom .d-flex{
+    margin-bottom: 15px;
+}
+
+.seller-review .review-bottom .progress {
+    height: 10px;
+}
+
+.seller-review .review-bottom svg{
+    margin-left: 5px;
+}
+
+.seller-review .review-bottom .justify-content-around p{
+    color: #95979d;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    svg{
+        width: 10px;
+        height: 10px;
+    }
+    .seller-review .review-top .left-review h3{
+        font-size: 1.2rem ;
+        
+    }
+    .seller-review .review-top .left-review .start-icon svg{
+        width: 10px;
+        height: 11px;
+        margin-top: 0;
+    }
+    .seller-review .review-top .left-review p{
+        margin-top: 5px;
+    }
+    .gig_page_perseus p{
+        font-size: 10px;
+    }
+    .gig_page_perseus .people-comment p{
+        font-size: 15px;
+    }
+    .review-bottom-right span{
+        font-size: 10px;
+        
+    }
+    .review-bottom-right span svg{
+       
+        margin-top: -2px;  
+    }
+
+    .people-helpful{
+        font-size: 10px;
+    }
+    .people-helpful .Helpful svg{
+        margin-top: 0 !important ;
+    }
+
+    .seller-review .review-top .left-review .d-flex .plus {
+        font-size: 18px !important; 
+    }
+    .seller-review .review-bottom .hr-review{
+        width: 50%;
+    }
+
+    .seller-review .review-bottom .progress{
+        height: 5px;
+    }
+    
+    .people-review .people svg {
+        margin-top: -2px !important ;
+    }
+
+}
